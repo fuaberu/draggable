@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#answer {
+  display: inline-block;
+  border-bottom: 1px solid black;
+}
+
+#sentence-container {
+  display: flex;
+  margin: 20px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.option-element {
+  position: absolute;
+  width: fit-content;
+  top: 0;
+  background-color: aqua;
+  cursor: pointer;
+  border-radius: 5px;
+  user-select: none;
+}
